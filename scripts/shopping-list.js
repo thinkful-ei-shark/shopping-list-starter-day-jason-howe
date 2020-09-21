@@ -74,8 +74,6 @@ const getItemIdFromElement = function (item) {
   return $(item).closest('.js-item-element').data('item-id');
 };
 
-
-
 const handleDeleteItemClicked = function () {
   // like in `handleItemCheckClicked`, we use event delegation
   $('.js-shopping-list').on('click', '.js-item-delete', (event) => {
