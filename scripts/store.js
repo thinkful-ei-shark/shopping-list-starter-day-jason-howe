@@ -47,4 +47,5 @@ export default {
   findAndToggleChecked,
   findAndDelete,
   findAndUpdateName,
+  toggleCheckedFilter,
 };
